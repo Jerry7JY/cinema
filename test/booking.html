@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Бронирование мест</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>🎬 Кинотеатр "Звездный"</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="movie.html">Фильмы</a>
+            <a href="booking.html">Бронирование</a>
+            <a href="my-tickets.html">Мои билеты</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Выберите место</h2>
+        <div id="seat-map"></div>
+
+        <div id="summary">
+            <p>Выбрано мест: <span id="count">0</span></p>
+            <p>Сумма: <span id="total">0</span> ₽</p>
+            <button onclick="checkout()">Оплатить</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
