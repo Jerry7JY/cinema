@@ -7,5 +7,4 @@
 - Бронирование мест
 - Отображение выбранных билетов
 
-## Лицензия
-[MIT](https://choosealicense.com/licenses/mit/) 
+
